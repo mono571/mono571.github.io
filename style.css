@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'helveprolt';
+    src: url('./fonts/helveticaneueltpro-lt.woff2')format('woff2');
+    src: url('./fonts/helveticaneueltpro-lt.woff')format('woff');
+    src: url('./fonts/helveticaneueltpro-lt.ttf')format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'helvepromd';
+    src: url('./fonts/helveticaneueltpro-md.woff2')format('woff2');
+    src: url('./fonts/helveticaneueltpro-md.woff')format('woff');
+    src: url('./fonts/helveticaneueltpro-md.ttf')format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'helveproroman';
+    src: url('./fonts/helveticaneueltpro-roman.woff2')format('woff2');
+    src: url('./fonts/helveticaneueltpro-roman.woff')format('woff');
+    src: url('./fonts/helveticaneueltpro-roman.ttf')format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'merrili';
+    src: url('./fonts/merriweather-lightitalic.woff2')format('woff2');
+    src: url('./fonts/merriweather-lightitalic.woff')format('woff');
+    src: url('./fonts/merriweather-lightitalic.ttf')format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'montsli';
+    src: url('./fonts/Montserrat-Light.woff2')format('woff2');
+    src: url('./fonts/Montserrat-Light.woff')format('woff');
+    src: url('./fonts/Montserrat-Light.ttf')format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'montsreg';
+    src: url('./fonts/Montserrat-Regular.woff2')format('woff2');
+    src: url('./fonts/Montserrat-Regular.woff')format('woff');
+    src: url('./fonts/Montserrat-Regular.ttf')format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'robreg';
+    src: url('./fonts/Roboto-Regular.woff2')format('woff2');
+    src: url('./fonts/Roboto-Regular.woff')format('woff');
+    src: url('./fonts/Roboto-Regular.ttf')format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+*,
+*::after,
+*::before {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.page {
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.page__firstblock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.firstblock__header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 23px;
+}
+.firstblock__header__menu__url {
+    color: rgba(152.0004, 149.6136, 149.6136, 1);
+    font-family: 'robreg';
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 17px;
+    font-style: normal;
+    text-align: center;
+}
+.firstblock__header__menu__url:hover {
+    color: rgba(0.9995999999999999, 0.99195, 0.99195, 1);
+}
+.firstblock__header__logo {
+    margin: 0 59px 207px;
+}
+.firstblock__centr {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'helveprolt';
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 17px;
+    text-align: center;
+    color: rgba(28.6875, 29.937, 31.00035, 1);
+}
+.firstblock__centr__downinformation {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'merrili';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 17px;
+    text-align: center;
+    color: rgba(136.99875, 135.92265, 135.92265, 1);
+    padding: 4px 0px;
+}
+.firstblock__button {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 41px;
+}
+.firstblock__button__url {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 27px 52px 24px 54px;
+    font-family: 'montsreg';
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 17px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
