@@ -104,7 +104,7 @@ a {
     color: rgba(0.9995999999999999, 0.99195, 0.99195, 1);
 }
 .firstblock__header__logo {
-    margin: 0 59px 207px;
+    margin: 0 59px;
 }
 .firstblock__centr {
     display: flex;
@@ -115,6 +115,7 @@ a {
     line-height: 17px;
     text-align: center;
     color: rgba(28.6875, 29.937, 31.00035, 1);
+    margin-top: 207px;
 }
 .firstblock__centr__downinformation {
     display: flex;
